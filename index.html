@@ -4,8 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Three.js on GitHub Pages</title>
+  <style>
+    body { margin: 0; }
+    .crosshair {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 10px;
+      height: 10px;
+      background-color: antiquewhite;
+    }
+  </style>
 </head>
 <body>
-  <script src="main.js"></script>
+  <div class="crosshair"></div>
+  <script type="module" src="main.js"></script>
 </body>
 </html>
