@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node public/main.js",
-    "predeploy": "cp -r public/ dist/",
+    "start": "node dist/main.js",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
